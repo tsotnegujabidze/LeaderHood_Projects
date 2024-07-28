@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: "Barlow Semi Condensed", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 100px;
+}
+
+.card {
+    width: 300px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    padding: 20px;
+}
+
+.card .profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.card .profile img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.card .profile .name {
+    font-weight: bold;
+}
+
+.card .profile .title {
+    color: #888;
+}
+
+.card .content {
+    margin-bottom: 20px;
+}
+
+.card .quote {
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.d {
+    background-color: hsl(263, 55%, 52%);
+    border-radius: 10px;
+    margin: 10px;
+    
+}
+
+.e {
+    background-color: hsl(217, 19%, 35%);
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.i {
+    background-color: hsl(0, 0%, 81%);
+    border-radius: 10px;
+    margin-right: 10px;
+    border: hidden;
+    border-width: 0px;
+    margin: 10px;
+}
+
+.p {
+    background-color: hsl(219, 29%, 14%);
+    border-radius: 10px;
+    margin-right: 10px;
+    border: hidden;
+    border-width: 0px;
+    margin: 10px;
+}
